@@ -156,6 +156,7 @@ class _HomePageState extends State<HomePage> {
           const SizedBox(height: 16.0),
 
           NotificationBadge(totalNotifications: _totalNotifications),
+
           const SizedBox(height: 16.0),
           _notificationInfo != null
               ? Column(
