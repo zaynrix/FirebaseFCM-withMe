@@ -151,6 +151,8 @@ class _HomePageState extends State<HomePage> {
               fontSize: 20,
             ),
           ),
+
+
           const SizedBox(height: 16.0),
           NotificationBadge(totalNotifications: _totalNotifications),
           const SizedBox(height: 16.0),
