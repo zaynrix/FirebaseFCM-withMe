@@ -91,7 +91,7 @@ class _HomePageState extends State<HomePage> {
   checkForInitialMessage() async {
     await Firebase.initializeApp();
     RemoteMessage? initialMessage =
-    await FirebaseMessaging.instance.getInitialMessage();
+        await FirebaseMessaging.instance.getInitialMessage();
 
     if (initialMessage != null) {
       PushNotification notification = PushNotification(
@@ -151,39 +151,35 @@ class _HomePageState extends State<HomePage> {
               fontSize: 20,
             ),
           ),
-
-
           const SizedBox(height: 16.0),
+
 
           NotificationBadge(totalNotifications: _totalNotifications),
-
           const SizedBox(height: 16.0),
+
           _notificationInfo != null
               ? Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                'TITLE: ${_notificationInfo!.dataTitle ?? _notificationInfo!.title}',
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16.0,
-                ),
-              ),
-              const SizedBox(height: 8.0),
-
-              Text(
-                'BODY: ${_notificationInfo!.dataBody ?? _notificationInfo!.body}',
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16.0,
-                ),
-              ),
-            ],
-          )
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'TITLE: ${_notificationInfo!.dataTitle ?? _notificationInfo!.title}',
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16.0,
+                      ),
+                    ),
+                    const SizedBox(height: 8.0),
+                    Text(
+                      'BODY: ${_notificationInfo!.dataBody ?? _notificationInfo!.body}',
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16.0,
+                      ),
+                    ),
+                  ],
+                )
               : Container(),
-
         ],
-
       ),
     );
   }
