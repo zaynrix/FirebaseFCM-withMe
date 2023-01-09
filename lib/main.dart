@@ -158,6 +158,7 @@ class _HomePageState extends State<HomePage> {
 
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+
           const Text(
             'App for capturing Firebase Push Notifications',
             textAlign: TextAlign.center,
