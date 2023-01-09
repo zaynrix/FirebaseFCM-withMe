@@ -151,6 +151,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
 
         title: const Text('Notify'),
+
         brightness: Brightness.dark,
       ),
       body: Column(
