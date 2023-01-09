@@ -113,6 +113,7 @@ class _HomePageState extends State<HomePage> {
     _totalNotifications = 0;
 
     registerNotification();
+
     checkForInitialMessage();
 
 
