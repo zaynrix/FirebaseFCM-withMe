@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "669134402500",
+    "firebase_url": "https://mobile-informations.firebaseio.com",
+    "project_id": "mobile-informations",
+    "storage_bucket": "mobile-informations.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669134402500:android:6cb7a75ed2c029dcd72a91",
+        "android_client_info": {
+          "package_name": "com.example.fcmnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669134402500-6lck77rcgq10tap8ea2ke3683lr3cfga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgE5LjV7sywfnx4QWoG2JXwAPwGDgvdnA"
+        },
+        {
+          "current_key": "AIzaSyBmhj6vzj0eYnj6Mycs-vKyayHrImrTfwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669134402500-6lck77rcgq10tap8ea2ke3683lr3cfga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669134402500:android:1f13890e68fc932ed72a91",
+        "android_client_info": {
+          "package_name": "com.quran.rahmannn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669134402500-6lck77rcgq10tap8ea2ke3683lr3cfga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgE5LjV7sywfnx4QWoG2JXwAPwGDgvdnA"
+        },
+        {
+          "current_key": "AIzaSyBmhj6vzj0eYnj6Mycs-vKyayHrImrTfwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669134402500-6lck77rcgq10tap8ea2ke3683lr3cfga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669134402500:android:64cd2af09646f40ed72a91",
+        "android_client_info": {
+          "package_name": "com.smartervision.restaurant_rlutter_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669134402500-6lck77rcgq10tap8ea2ke3683lr3cfga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgE5LjV7sywfnx4QWoG2JXwAPwGDgvdnA"
+        },
+        {
+          "current_key": "AIzaSyBmhj6vzj0eYnj6Mycs-vKyayHrImrTfwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669134402500-6lck77rcgq10tap8ea2ke3683lr3cfga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
