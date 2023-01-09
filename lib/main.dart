@@ -114,6 +114,7 @@ class _HomePageState extends State<HomePage> {
     registerNotification();
     checkForInitialMessage();
 
+
     // For handling notification when the app is in background
     // but not terminated
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
