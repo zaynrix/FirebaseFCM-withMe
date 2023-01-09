@@ -111,6 +111,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     _totalNotifications = 0;
+
     registerNotification();
     checkForInitialMessage();
 
