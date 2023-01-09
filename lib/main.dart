@@ -126,6 +126,7 @@ class _HomePageState extends State<HomePage> {
 
         body: message.notification?.body,
         dataTitle: message.data['title'],
+
         dataBody: message.data['body'],
       );
 
