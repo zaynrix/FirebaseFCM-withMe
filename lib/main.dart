@@ -132,6 +132,7 @@ class _HomePageState extends State<HomePage> {
       );
 
       setState(() {
+
         _notificationInfo = notification;
         _totalNotifications++;
       });
