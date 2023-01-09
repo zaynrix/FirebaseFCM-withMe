@@ -170,6 +170,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               const SizedBox(height: 8.0),
+
               Text(
                 'BODY: ${_notificationInfo!.dataBody ?? _notificationInfo!.body}',
                 style: const TextStyle(
