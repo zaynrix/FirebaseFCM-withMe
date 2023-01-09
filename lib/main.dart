@@ -120,6 +120,7 @@ class _HomePageState extends State<HomePage> {
     // For handling notification when the app is in background
     // but not terminated
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
+
       PushNotification notification = PushNotification(
         title: message.notification?.title,
         body: message.notification?.body,
