@@ -146,6 +146,7 @@ class _HomePageState extends State<HomePage> {
         brightness: Brightness.dark,
       ),
       body: Column(
+
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(
