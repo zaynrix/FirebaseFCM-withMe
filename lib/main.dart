@@ -116,51 +116,36 @@ class _HomePageState extends State<HomePage> {
 
     checkForInitialMessage();
 
-
     // For handling notification when the app is in background
     // but not terminated
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-
       PushNotification notification = PushNotification(
         title: message.notification?.title,
-
         body: message.notification?.body,
-
         dataTitle: message.data['title'],
-
         dataBody: message.data['body'],
       );
 
       setState(() {
-
         _notificationInfo = notification;
 
         _totalNotifications++;
       });
     });
 
-
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
-
       appBar: AppBar(
-
-
-
         title: const Text('Notify'),
-
         brightness: Brightness.dark,
       ),
       body: Column(
-
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-
           const Text(
             'App for capturing Firebase Push Notifications',
             textAlign: TextAlign.center,
@@ -170,11 +155,8 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           const SizedBox(height: 16.0),
-
-
           NotificationBadge(totalNotifications: _totalNotifications),
           const SizedBox(height: 16.0),
-
           _notificationInfo != null
               ? Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
