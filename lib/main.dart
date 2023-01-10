@@ -136,9 +136,6 @@ class _HomePageState extends State<HomePage> {
     super.initState();
   }
 
-
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -149,7 +146,6 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-
           const Text(
             'App for capturing Firebase Push Notifications',
             textAlign: TextAlign.center,
